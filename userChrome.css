@@ -606,13 +606,13 @@ findbar {
 
 /* adaptive tab width */
 .tabbrowser-tab[selected][fadein]:not([pinned]) {
-    max-width: 256px !important;
+    max-width: 320px !important;
 }
 .tabbrowser-tab[selected][fadein]:not([pinned]) {
-    min-width: 196px !important;
+    min-width: 192px !important;
 }
 .tabbrowser-tab[fadein]:not([selected]):not([pinned]) {
-    max-width: 128px !important;
+    max-width: 192px !important;
 }
 .tabbrowser-tab[fadein]:not([selected]):not([pinned]) {
     min-width: 64px !important;
