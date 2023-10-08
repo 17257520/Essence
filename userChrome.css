@@ -575,7 +575,8 @@ findbar {
 /* hiding stuff */
 #reader-mode-button,
 #tracking-protection-icon-container,
-#star-button-box,
+/* #star-button-box, */
+/* #unified-extensions-button, */
 #identity-icon-box {
     display: none !important;
 }
