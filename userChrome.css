@@ -445,6 +445,7 @@
 }
 
 /*  Rounded corner in pages  */
+/*
 #navigator-toolbox {
     padding-bottom: 10px;
 }
@@ -478,6 +479,7 @@ findbar {
     margin: -10px !important;
     transition: border-radius 0.7s !important;
 }
+*/
 
 /*  Devtools  */
 .devtools-horizontal-splitter {
@@ -509,6 +511,7 @@ findbar {
 } /*  Fixes the urlbar color on some themes  */
 
 /*  Makes sidebars nicer  */
+/*
 #sidebar-box {
     margin-top: -10px !important;
     border-radius: 0 10px 0 0 !important;
@@ -520,6 +523,7 @@ findbar {
 #sidebar-box > * {
     background-image: none;
 }
+*/
 
 /*  Drop menus  */
 [position="bottomright topright"] {
@@ -610,7 +614,7 @@ findbar {
     max-width: 320px !important;
 }
 .tabbrowser-tab[selected][fadein]:not([pinned]) {
-    min-width: 192px !important;
+    min-width: 256px !important;
 }
 .tabbrowser-tab[fadein]:not([selected]):not([pinned]) {
     max-width: 192px !important;
