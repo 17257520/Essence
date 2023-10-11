@@ -204,6 +204,12 @@
 }
 
 /*  X-button on the tabs  */
+
+.tab-close-button { 
+    display:none !important;
+}
+
+/*
 .tabbrowser-tab:not(:hover) .tab-close-button {
     opacity: 0% !important;
     transition: 0.3s !important;
@@ -236,6 +242,7 @@
     display: -moz-box !important;
 }
 
+*/
 /*  Removes annoying border  */
 #navigator-toolbox {
     border: none !important;
@@ -658,9 +665,11 @@ findbar {
     list-style-image: url(window/stop.svg) !important;
 }
 
+/*
 .tab-close-button {
     list-style-image: url(window/minus.svg) !important;
 }
+*/
 
 #tabs-newtab-button > .toolbarbutton-icon {
     list-style-image: url(window/add.svg) !important;    
