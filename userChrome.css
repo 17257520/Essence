@@ -121,6 +121,7 @@ font-family: 更紗黑體 UI TC !important;
     /*! box-shadow: inset .2rem .2rem .5rem var(--greyLight-2), inset -.2rem -.2rem .5rem var(--white); */
 }
 
+
 /*  Removes rounding from the top corners,   */
 #navigator-toolbox {
     appearance: none !important;
@@ -132,6 +133,16 @@ font-family: 更紗黑體 UI TC !important;
     appearance: none !important;
     border-radius: 0 !important;
 }
+
+
+/*  removing black separator above url bar  */
+#nav-bar {
+  background-color:transparent !important;
+  background-image:none !important;
+  border-color:transparent !important;
+  box-shadow:none !important;
+}
+
 
 #navigator-toolbox-background:-moz-window-inactive {
     filter: contrast(90%);
